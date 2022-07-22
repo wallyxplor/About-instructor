@@ -1,0 +1,121 @@
+/*
+    Exploratory CSS for About Walter
+*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    background-color: beige;
+    line-height: 1.2;
+}
+#wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    color: rgb(255, 253, 192);
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+    /* padding-top:15%; */
+    /* opacity: .3; */
+}
+h2 {
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+    /* text-transform: uppercase; */
+}
+blockquote {
+    /* position: relative; */
+    float: left;
+    left: -100px;
+    font-size: 1.3em;
+    font-style: italic;
+    width: 250px;
+    color: rgb(102, 167, 223);
+    padding: 1.5%;
+    border-left: 5px solid blue;
+    background-color: rgb(212, 252, 103);
+    /* text-align: center; */
+    /* margin-left: auto;
+                margin-right: auto; */
+}
+blockquote:hover {
+    box-shadow: 4px 4px 8px #333333;
+}
+/* .headerimg {
+                background-image: url('competition2.png');
+                height: 300px;
+                opacity: 0.3;
+            }
+            .p1 {
+                float: left;
+                background-color: blanchedalmond;
+                width:50%;
+                opacity: .5;
+            } */
+.herocenter {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.navbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+nav a:link {
+    color: blue;
+}
+nav a:visited {
+    color: orangered;
+}
+nav a:hover {
+    text-shadow: 2px 2px 4px #444444;
+}
+nav a:active {
+    color: white;
+    background-color: blue;
+}
+p {
+    padding: 1rem;
+}
+footer {
+    background-color: blue;
+    color: white;
+    height: 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+footer a {
+    text-decoration: none;
+}
+@media (max-width: 480px) {
+    h1 {
+        color: rgb(255, 253, 192);
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: bolder;
+        /* padding-top:15%; */
+        /* opacity: .3; */
+    }
+}
